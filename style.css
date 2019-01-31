@@ -1,0 +1,33 @@
+/* 유지보수의 편의성이 높아진다!! */
+
+body{
+    margin: 0px;
+}
+h1{
+    border-bottom: 10px solid silver;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+ol{
+    border-right: 10px solid gold;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#container0{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+/* #container1{
+    display: grid;
+    border-color: palegoldenrod;
+    grid-template-columns: 25% 25% 25% 25%;
+} */
+#container2{
+    width: 700px;
+    padding-left: 0px;
+}
